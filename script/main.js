@@ -215,18 +215,23 @@ $(document).ready(function(){
             });
             $('#mo_1>.web_1').click(function(){
                 $('#modalimg').attr('src','./images/markup_1.jpg');
+                $('.modal_wrap > img').addClass('modal8_img');
+                $('.modal').css('height','100vh');
             });
             $('#mo_1>.web_2').click(function(){
                 $('#modalimg').attr('src','./images/validator_1.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_1>.web_3').click(function(){
                 $('#modalimg').attr('src','./images/accessibility_1.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_1>.web_4').click(function(){
                 $('#modalimg').attr('src','./images/cross_1.jpg');
             });
             $('#mo_1>.web_5').click(function(){
                 $('#modalimg').attr('src','./images/optimization_1.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_1>.web_6').click(function(){
                 $('#modalimg').attr('src','./images/samyang_wire.jpg');
@@ -245,13 +250,11 @@ $(document).ready(function(){
                 $('#modalimg').attr('src','./images/validator_2.jpg');
                 $('.modal').css('height','100vh');
                 $('.modal_wrap > img').addClass('modal8_img');
-
             });
             $('#mo_2>.web_3').click(function(){
                 $('#modalimg').attr('src','./images/accessibility_2.jpg');
                 $('.modal').css('height','100vh');
                 $('.modal_wrap > img').addClass('modal8_img');
-
             });
             $('#mo_2>.web_4').click(function(){
                 $('#modalimg').attr('src','./images/cross_2.jpg');
@@ -274,18 +277,24 @@ $(document).ready(function(){
             });
             $('#mo_3>.web_1').click(function(){
                 $('#modalimg').attr('src','./images/markup_3.jpg');
+                $('.modal_wrap > img').addClass('modal8_img');
+                $('.modal').css('height','100vh');
             });
             $('#mo_3>.web_2').click(function(){
                 $('#modalimg').attr('src','./images/validator_3.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_3>.web_3').click(function(){
                 $('#modalimg').attr('src','./images/accessibility_3.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_3>.web_4').click(function(){
                 $('#modalimg').attr('src','./images/cross_3.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_3>.web_5').click(function(){
                 $('#modalimg').attr('src','./images/optimization_3.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_3>.web_6').click(function(){
                 $('#modalimg').attr('src','./images/micro_wire.jpg');
@@ -300,18 +309,24 @@ $(document).ready(function(){
             });
             $('#mo_4>.web_1').click(function(){
                 $('#modalimg').attr('src','./images/markup_4.jpg');
+                $('.modal_wrap > img').addClass('modal8_img');
+                $('.modal').css('height','100vh');
             });
             $('#mo_4>.web_2').click(function(){
                 $('#modalimg').attr('src','./images/validator_4.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_4>.web_3').click(function(){
                 $('#modalimg').attr('src','./images/accessibility_4.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_4>.web_4').click(function(){
                 $('#modalimg').attr('src','./images/cross_4.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_4>.web_5').click(function(){
                 $('#modalimg').attr('src','./images/optimization_4.jpg');
+                $('.modal').css('height','100vh');
             });
             $('#mo_4>.web_6').click(function(){
                 $('#modalimg').attr('src','./images/oralb_wire.jpg');
