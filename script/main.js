@@ -366,9 +366,9 @@ $(document).ready(function(){
             return false;
         });
         $('.modal10').click(function(){
-        //     $('.modal').show();
-        //     $('#modalimg').attr('src','./images/oralb_modal.jpg');
-        //     $('#link').hide();
+            $('.modal').show();
+            $('#modalimg').attr('src','./images/back_modal.jpg');
+            $('#link').hide();
             return false;
         });
         $('i.fa-times').click(function(){
