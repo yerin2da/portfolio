@@ -337,6 +337,7 @@ $(document).ready(function(){
             $('.modal').show();
             $('#modalimg').attr('src','./images/wunda_modal.jpg');
             $('#link').hide();
+            $('#mo_1, #mo_2, #mo_3, #mo_4').hide();
             return false;
         });
         $('.modal6').click(function(){
